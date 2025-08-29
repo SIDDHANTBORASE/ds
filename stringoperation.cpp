@@ -18,13 +18,12 @@ void concatestring(char str1[], char str2[]) {
     char result[MAX * 2];
     int i = 0, j = 0;
 
-    // Copy str1 to result
     while (str1[i] != '\0') {
         result[i] = str1[i];
         i++;
     }
 
-    // Append str2 to result
+   
     while (str2[j] != '\0') {
         result[i] = str2[j];
         i++;
